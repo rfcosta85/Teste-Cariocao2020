@@ -5,16 +5,19 @@
 
 body {
 
-    background-color: rgb(53, 187, 53);
+    background-color: #448144;
+    background-image: url(https://images.unsplash.com/photo-1523261473917-312105e299c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=376&q=80); 
+    
 
 }
 
 main {
 
     background-color: white;
-    width: 500px;
-    margin: auto;
-    padding: 10px;
+    width: 600px;
+    margin-left: 390px;
+    margin-top: 40px;
+    padding: 45px;
     box-shadow: 3px 3px 5px rgba(0, 0,0.473);
-
+    
 }
