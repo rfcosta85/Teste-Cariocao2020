@@ -6,8 +6,10 @@
 body {
 
     background-color: #448144;
-    background-image: url(https://images.unsplash.com/photo-1523261473917-312105e299c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=376&q=80); 
-    
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center;
+    background-image: url(https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2020/01/carioca-2020-ferj.png);     
 
 }
 
@@ -17,6 +19,7 @@ main {
     width: 600px;
     margin-left: 390px;
     margin-top: 40px;
+    margin-bottom: 40px;
     padding: 45px;
     box-shadow: 3px 3px 5px rgba(0, 0,0.473);
     
