@@ -1,46 +1,139 @@
+@charset "UTF-8";
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
-body {
+body 
+{
     
     background-color: #1a1040f3;   
 
 }
 
+header
+{
+    background-color: rgba(255, 255, 255, 0.897);
+    margin-top: -11px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);   
+    
+}
+
 main {
 
+    min-width: 300px;
+    max-width: 1200px;
+    width: 800px;
+    height: 500px;
     background-color: rgb(255, 255, 255);
-    width: 600px;
-    margin-left: 395px;
-    margin-top: -26%;
-    margin-bottom: 40px;
-    padding: 1% 3% 1% 2%;
-    box-shadow: 3px 3px 5px rgba(0, 0,0.473);
+    margin: auto;
+    margin-top: -80px;
+    
     
 }
 
-ol {
+aside
+{
+    width: 600px;
+    height: 140px;       
+      
+}
+
+h1.header
+{
+    text-align: center;
+    padding-top: 5px; 
+           
+}
+
+h2.article
+{
+    text-align: center;
+    padding-top: 8px;
+}
+
+h2.aside
+{
+    text-align: left; 
+    margin-left: 100px;   
+    padding-top: 8px;
+}
+
+p
+{
+    text-indent: 10px;
+    margin-left: 9px;
+    margin-right: 9px;
     text-align: justify;
     
-}
-
-div img
-{
-    width: 15%;
-    margin-top: 9%;
-    margin-left: 2.5%;
-}
-div.inverso 
-{
-    margin-left: 80%;
-    width: 98%;
-    margin-top: -23%;
-    
     
 }
 
+ol
+{    
+    height: 310px;
+    list-style-position: inside;
+    background-color: lightgray;
+}
 
+footer
+{
+    background-color: rgba(211, 211, 211, 0.589);
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-top: 26.2px;
+}
 
+p#footer
+{
+    text-align: center;
+}
 
+img#direito
+{
+    
+    height: 120px;
+    margin-left: 30px;
+    
+}
+
+img#esquerdo
+{
+    height: 115px;
+    margin-left: 1050px;
+}
+
+li
+{
+    line-height: 23px;
+    padding-top: 2.4px;
+    
+}
+
+img#guanabara
+{
+    height: 90px;
+    margin-top: -15px ;
+    margin-left: 160px;
+}
+h2#lado
+{
+    margin-top: -32px;
+    text-align: right;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.582);
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: rgba(236, 60, 60, 0.952);
+}
