@@ -110,7 +110,13 @@ img#direito
 
 img#esquerdo
 {
-    
+    height: 120px;    
+    margin-top: -105px;
+}
+
+div#cariocaesquerdo
+{
+    margin-left: 850px;
 }
 
 img#guanabara
