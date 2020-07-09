@@ -5,22 +5,12 @@
     font-size: 16px;
 }
 
+
 body 
 {
     
     background-color: #1a1040f3;   
 
-}
-
-header
-{
-    background-color: rgba(255, 255, 255, 0.897);
-    margin-top: -11px;
-    margin-left: -8px;
-    margin-right: -8px;
-    height: 30px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);   
-    
 }
 
 main {
@@ -31,8 +21,7 @@ main {
     height: 500px;
     background-color: rgb(255, 255, 255);
     margin: auto;
-    margin-top: -80px;
-    
+    margin-top: -80px;    
     
 }
 
@@ -59,7 +48,7 @@ h2.article
 h2.aside
 {
     text-align: left; 
-    margin-left: 100px;   
+    margin-left: 180px;   
     padding-top: 8px;
 }
 
@@ -68,16 +57,8 @@ p
     text-indent: 10px;
     margin-left: 9px;
     margin-right: 9px;
-    text-align: justify;
+    text-align: justify;    
     
-    
-}
-
-ol
-{    
-    height: 310px;
-    list-style-position: inside;
-    background-color: lightgray;
 }
 
 footer
@@ -116,14 +97,25 @@ li
 
 img#guanabara
 {
-    height: 90px;
+    height: 80px;
     margin-top: -15px ;
-    margin-left: 160px;
+    margin-left: 240px;
+}
+div.rio
+{
+    margin-top: -80px;
+    margin-left: 510px;
+
+}
+img#tacario
+{
+    height: 60px;  
+
 }
 h2#lado
 {
-    margin-top: -32px;
-    text-align: right;
+    margin-top: -32px;    
+    padding-left: 458px;
 }
 
 a
@@ -137,3 +129,59 @@ a:hover
     text-decoration: underline;
     color: rgba(236, 60, 60, 0.952);
 }
+
+table
+{
+    margin: auto;
+    width: 500px;
+    background-color: rgb(243, 243, 243);
+    min-width: 300px;
+    max-width: 800px;
+}
+
+col#position
+{
+    width: 10px;
+    
+}
+
+col#logo
+{
+    width: 45px;    
+}
+
+col#clube
+{
+    width: 140px;
+}
+
+col#pontos
+{
+    width: 60px;
+}
+
+td
+{
+    text-align: center;
+}
+
+td.position
+{
+    text-align: center;
+}
+
+td.rebaixado
+{
+    background-color: red;
+}
+
+td.logo
+{
+    text-align: center;
+}
+
+td.name
+{
+    text-align: center;
+}
+
